@@ -11,6 +11,7 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
+    "start": "node server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
