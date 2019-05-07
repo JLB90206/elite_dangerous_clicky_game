@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-image: url("/elite_dangerous_clicky_game/public/assets/images/Galaxy.jpg");
+  background-color: transparent;
+}
+
+html, body, #root {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-image: url("/elite_dangerous_clicky_game/public/assets/images/Galaxy.jpg");
+  background-color: transparent;
+}
