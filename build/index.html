@@ -1,0 +1,70 @@
+Html Webpack Plugin:
+<pre>
+  Error: Parse Error: <link rel="stylesheet" href="style.css"
+      <!--
+        Notice the use of /elite_dangerous_clicky_game in the tags above.
+        It will be replaced with the URL of the `public` folder during the build.
+        Only files inside the `public` folder can be referenced from the HTML.
+        Unlike "/favicon.ico" or "favicon.ico", "/elite_dangerous_clicky_game/favicon.ico" will
+        work correctly both with client-side routing and a non-root public URL.
+        Learn how to configure a non-root public URL by running `npm run build`.
+      -->
+      <title>One Tricky Clicky Game!</title>
+    <link href="/elite_dangerous_clicky_game/static/css/main.d090269a.css" rel="stylesheet"></head>
+    <body
+         background="/elite_dangerous_clicky_game/public/assets/images/Galaxy.jpg">
+      <noscript>
+        You need to enable JavaScript to run this app.
+      </noscript>
+      <div id="root"></div>
+      <!--
+        This HTML file is a template.
+        If you open it directly in the browser, you will see an empty page.
+        You can add webfonts, meta tags, or analytics to this file.
+        The build step will place the bundled scripts into the <body> tag.
+        To begin the development, run `npm start` or `yarn start`.
+        To create a production bundle, use `npm run build` or `yarn build`.
+      -->
+    <script type="text/javascript" src="/elite_dangerous_clicky_game/static/js/main.f10aa72d.js"></script></bod  y>
+  </html>
+  
+  - htmlparser.js:240 new HTMLParser
+    [elite_dangerous_clicky_game]/[html-minifier]/src/htmlparser.js:240:13
+  
+  - htmlminifier.js:966 minify
+    [elite_dangerous_clicky_game]/[html-minifier]/src/htmlminifier.js:966:3
+  
+  - htmlminifier.js:1326 exports.minify
+    [elite_dangerous_clicky_game]/[html-minifier]/src/htmlminifier.js:1326:16
+  
+  - index.js:296 
+    [elite_dangerous_clicky_game]/[html-webpack-plugin]/index.js:296:16
+  
+  - util.js:16 tryCatcher
+    [elite_dangerous_clicky_game]/[bluebird]/js/release/util.js:16:23
+  
+  - promise.js:512 Promise._settlePromiseFromHandler
+    [elite_dangerous_clicky_game]/[bluebird]/js/release/promise.js:512:31
+  
+  - promise.js:569 Promise._settlePromise
+    [elite_dangerous_clicky_game]/[bluebird]/js/release/promise.js:569:18
+  
+  - promise.js:614 Promise._settlePromise0
+    [elite_dangerous_clicky_game]/[bluebird]/js/release/promise.js:614:10
+  
+  - promise.js:694 Promise._settlePromises
+    [elite_dangerous_clicky_game]/[bluebird]/js/release/promise.js:694:18
+  
+  - async.js:138 _drainQueueStep
+    [elite_dangerous_clicky_game]/[bluebird]/js/release/async.js:138:12
+  
+  - async.js:131 _drainQueue
+    [elite_dangerous_clicky_game]/[bluebird]/js/release/async.js:131:9
+  
+  - async.js:147 Async._drainQueues
+    [elite_dangerous_clicky_game]/[bluebird]/js/release/async.js:147:5
+  
+  - async.js:17 Immediate.Async.drainQueues [as _onImmediate]
+    [elite_dangerous_clicky_game]/[bluebird]/js/release/async.js:17:14
+  
+</pre>

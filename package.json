@@ -1,7 +1,7 @@
 {
   "name": "elite_dangerous_clicky_game",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://JLB90206.github.io/elite_dangerous_clicky_game",
   "dependencies": {
     "gh-pages": "^1.1.0",
@@ -11,10 +11,9 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
