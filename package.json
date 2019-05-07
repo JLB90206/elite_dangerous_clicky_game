@@ -5,6 +5,7 @@
   "homepage": "https://JLB90206.github.io/elite_dangerous_clicky_game",
   "dependencies": {
     "gh-pages": "^1.1.0",
+    "node": "^12.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17"
