@@ -1,7 +1,7 @@
 {
   "name": "elite_dangerous_clicky_game",
   "version": "0.1.0",
-  "private": false,
+  "main": "server.js",
   "homepage": "https://JLB90206.github.io/elite_dangerous_clicky_game",
   "dependencies": {
     "gh-pages": "^1.1.0",
